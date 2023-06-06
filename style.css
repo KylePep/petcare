@@ -1,0 +1,82 @@
+/* SECTION element selectors */
+/* NOTE */
+/* h1{
+  color: red;
+} */
+body {
+  margin: 0;
+}
+header, main {
+  padding: 0 80px;
+}
+main {
+  margin: 10vh;
+}
+header{
+  padding-top: 15px;
+  margin-bottom: 8vh;
+}
+
+img{
+  height: 60vh;
+  width: 80vh;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
+footer {
+ background-color: #1f2130;
+ height: 30vh; 
+}
+h1 {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+/* SECTION class selectors */
+.border-bottom {
+  border-bottom: 1.5px solid black;
+}
+
+.main-paragraph {
+max-width: 40%;
+}
+
+.service-button {
+  background-color: #713EDD;
+  color: white;
+  border-radius: 24px;
+  max-width: fit-content;
+  padding: 1px 31px;
+  margin-right: 3vw;
+}
+
+.margin-bottom{
+  margin-bottom: 5vh;
+}
+
+.phone-button{
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.901);
+}
+
+.display-flex{
+  display: flex;
+}
+
+.animal-card{
+  color: white;
+  padding: 4em;
+}
+
+.kitten-card {
+  max-height: 60%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.animal-section{
+  height: 100%;
+  justify-content: space-around;
+  alignment: center;
+}
